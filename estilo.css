@@ -1,6 +1,6 @@
 header{
 	width: 100%;
-	background: url("imagen/encriptado.jpg");
+	background: url("encriptado.jpg");
 	padding-bottom: 45px;
 }
 
@@ -51,7 +51,7 @@ section{
 	font-style: italic;
 	font-size: 20px;
 	border-radius: 24px;
-	background-image: url("imagen/found.png");
+	background-image: url("found.png");
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.6;
