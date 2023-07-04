@@ -1,0 +1,98 @@
+header{
+	width: 100%;
+	background: url("imagen/encriptado.jpg");
+	padding-bottom: 45px;
+}
+
+body{
+	background: lightcyan;
+}
+
+main{
+	display: flex;
+}
+
+section{
+	margin-top:2%;
+	margin-left:2%;
+
+}
+	
+.texto{
+	font-style: italic;
+	margin: 5px;
+	font-size: 20px;
+	
+}
+
+#titulo{
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+	padding-top: 10px;
+
+}
+
+#cuadroTexto{
+	margin: 5px;
+	background: aliceblue;
+	border: none;
+	font-style: italic;
+	font-size: 20px;
+	border-radius: 24px;
+}
+
+
+#cuadroResultado{
+	margin: 5px;
+	background: aliceblue;
+	border: none;
+	font-style: italic;
+	font-size: 20px;
+	border-radius: 24px;
+	background-image: url("imagen/found.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+
+}
+
+#cuadroResultado:focus{
+	background-image: none;
+}
+
+#btnColor{
+	display: inline-block;
+
+	width: 30%;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background: darkcyan;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	margin: 10px;
+}
+
+
+#btnColor:hover{
+	background: lightsteelblue;
+	transform: scale(1.1);
+}
+
+	@media screen and (max-width:480px){
+		   
+		    main{
+		        display: inline-block;
+		    }
+		    #cuadroTexto, #cuadroResultado {
+		        width: auto;
+		    }
+		    header{
+		        width: 200%;
+		    }
+	}
