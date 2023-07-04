@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<title>Encriptador</title>
+</head>
+
+<body>
+	<header>
+		<h2 class="texto" id="titulo">Challenge de encriptador y desencriptador</h2>
+	</header>
+
+	<main>
+		
+		<section>
+			<textarea cols="70" rows="20" placeholder="Ingrese su texto" class="textIngreso" id="cuadroTexto"></textarea>
+			<div>
+				<h2 class="texto">Solo debe contener letras minúsculas y sin acentos</h2>
+				<button class="btnEncripta" id="btnColor" onclick="btnEncri()">Encriptar</button>
+				<button class="btnDesencripta" id="btnColor" onclick="btnDes()">Desencriptar</button>
+			</div>
+		</section>
+		<section>
+			<div>
+				<textarea cols="70" rows="25" class="textResultado" id="cuadroResultado" ></textarea>
+				<button class="btnCopia" id="btnColor" onclick="btnCopy()">Copiar texto</button>
+			</div>
+		</section>
+		
+	</main>
+
+
+		<script src="logica.js"></script>
+
+</body>
+
+</html>
